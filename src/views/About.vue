@@ -4,13 +4,14 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Taha Fersi</strong>, a software developer with 7 years of experiance.<br/>
+        I'm also a video game passionnate since my early childhood, and that's why I mainly specialise in game development(mostly gameplay programmer using Unity or tool development using either Unity or C#/WPF).<br>
+        I also have experiance, as a web developer, in both front and back ends.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">game related projects</router-link>(either games or gamefied projects using game development technologies), and <router-link to="/other-projects">non-games projects</router-link>, during those first years of <router-link to="/resume">professionnal journey</router-link>.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm currently working, with a small team, on <router-link to="/game-projects">The Black Swan</router-link>, an action rogue-like project. You can reach me at <a href="mailto:tictacf12@gmail.com">tictacf12@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">

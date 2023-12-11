@@ -1,15 +1,15 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Hello there!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>Taha Fersi</strong>, a software developer with 7 years of experiance.<br/>
-        I'm also a video game passionnate since my early childhood, and that's why I mainly specialise in game development(mostly gameplay programmer using Unity or tool development using either Unity or C#/WPF).<br>
-        I also have experiance, as a web developer, in both front and back ends.
+        I'm <strong>Taha Fersi</strong>, a software developer with 7 years of experience.<br/>
+        I am also a video game enthusiast since my early childhood, and that's why I mainly specialize in game development(mostly gameplay programming using Unity or tool development using either Unity or C#/WPF).<br>
+        I also have experience, as a web developer, in both front and back ends.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">game related projects</router-link>(either games or gamefied projects using game development technologies), and <router-link to="/other-projects">non-games projects</router-link>, during those first years of <router-link to="/resume">professionnal journey</router-link>.</div>
+      <div style="margin-top: 20px;">During those first years of <router-link to="/resume">my professional journey</router-link>, I worked on <router-link to="/game-projects">game-related projects</router-link>(either games or gamified projects using game development technologies), and <router-link to="/other-projects">non-game projects</router-link>.</div>
 
       <div style="margin-top: 40px;">I'm currently working, with a small team, on <router-link to="/game-projects">The Black Swan</router-link>, an action rogue-like project. You can reach me at <a href="mailto:tictacf12@gmail.com">tictacf12@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>

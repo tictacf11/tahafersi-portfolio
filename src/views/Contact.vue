@@ -12,27 +12,23 @@
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:my@email.com" target="_blank">my@email.com</a>
+        <a href="mailto:tictacf12@gmail.com" target="_blank">tictacf12@gmail.com</a>
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
-        <a href="https://www.linkedin.com/me" target="_blank">linkedin.com/me</a>
+        <a href="https://www.linkedin.com/in/taha-fersi-ab0b53106/" target="_blank">linkedin.com/in/taha-fersi-ab0b53106</a>
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>
-        <a href="https://github.com/me" target="_blank">github.com/me</a>
+        <a href="https://github.com/tictacf12" target="_blank">github.com/tictacf12</a>
       </li>
       <li>
-        <i class="fa fa-gamepad fa-lg fa-fw"></i>
-        <a href="https://myself.itch.io" target="_blank">myself.itch.io</a>
+        <i class="fa fa-gitlab fa-lg fa-fw"></i>
+        <a href="https://gitlab.com/tictacf12" target="_blank">gitlab.com/tictacf12</a>
       </li>
       <li>
-        <i class="fa fa-tumblr fa-lg fa-fw"></i>
-        <a href="https://myblog.tumblr.com" target="_blank">myblog.tumblr.com</a>
-      </li>
-      <li>
-        <i class="fa fa-steam fa-lg fa-fw"></i>
-        <a href="https://steamcommunity.com/id/me" target="_blank">steam.com/me</a>
+        <i class="fa fa-twitter fa-lg fa-fw"></i>
+        <a href="https://twitter.com/tictacf12" target="_blank">twitter.com/tictacf12</a>
       </li>
     </ul>
 

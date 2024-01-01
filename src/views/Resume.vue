@@ -38,11 +38,13 @@
 
       <div>
         - Mainly game development of a gamified wellness app with mini-games-based exercises for Web and Android platforms.
+        <br /> - Used Firebase database then switched to AWS database.
+        <br /> - Establishing javascript to Unity connections to get stored jsons and media stored in cache and indexedDB
         <br /> - Development of Atavism plugin using Java and the client part to consume it in C#/Unity
         <br /> - Development of a Hax plugin for Moodle.
       </div>
 
-      <div class="tech-stack">Unity 2022, C#, Java, Firebase, JSON, GPU particle system, Cinemachine, Zinject, Atavism, Hax, Moodle</div>
+      <div class="tech-stack">Unity 2022, C#, Java, Firebase, AWS, JSON, GPU particle system, Cinemachine, Zinject, Atavism, Hax, Moodle</div>
 
       <h3>Software developer - INSTEAD</h3>
       <h4>March 2017 - January 2021</h4>
@@ -96,7 +98,10 @@ the GearVR platform.
         <div class="skill">Unity</div>
         <div class="skill">WPF</div>
         <div class="skill">Visual Studio</div>
+        <div class="skill">XML</div>
+        <div class="skill">JSON</div>
         <div class="skill">Firebase</div>
+        <div class="skill">AWS</div>
         <div class="skill">Zinject</div>
         <div class="skill">Atavism</div>
         <div class="skill">RakVoice (RakNet)</div>
@@ -108,16 +113,17 @@ the GearVR platform.
         <h3>Web & Fullstack</h3>
         <div class="skill">HTML</div>
         <div class="skill">CSS</div>
+        <div class="skill">Bootstrap</div>
         <div class="skill">Laravel</div>
-        <div class="skill">Typescript</div>
-        <div class="skill">PHP</div>
         <div class="skill">MySQL</div>
+        <div class="skill">Hax</div>
+        <div class="skill">Moodle</div>
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
+      <h3>ESPRIT - Private Superior School Of Engineering And Technology - 2017</h3>
       <h4>Kindergarten degree</h4>
       <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
 

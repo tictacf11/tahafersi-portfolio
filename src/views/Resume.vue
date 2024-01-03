@@ -116,6 +116,7 @@ the GearVR platform.
         <div class="skill">Bootstrap</div>
         <div class="skill">Laravel</div>
         <div class="skill">MySQL</div>
+        <div class="skill">WordPress</div>
         <div class="skill">Hax</div>
         <div class="skill">Moodle</div>
       </div>
@@ -124,22 +125,35 @@ the GearVR platform.
       <h2>Education</h2>
 
       <h3>ESPRIT - Private Superior School Of Engineering And Technology - 2017</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h4>Computer software engineer</h4>
+      <div>Speciality in mobile development.</div>
+
+      <h3>ESSTT - 2013</h3>
+      <h4>Fundamental license in Computer Science</h4>
+      <div>Speciality in software engineer.</div>
+
+      <h3>School Technique Farhat Hached Rades - 2010</h3>
+      <h4>Baccalaureate Sciences techniques</h4>
+      <div>Specialty in Mechanics/Electronics.</div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>English</h3>
+      <div>Advenced knowledge.</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>French</h3>
+      <div>Fluant.</div>
 
+      <h3>Arabic</h3>
+      <div>Native.</div>
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Video games</h3>
+        <div>
+          Some of my GOTYs: Silent Hill 2, Portal 2, Undertale, Binding of Isaac, Crusader Kings 2, Half Life 1 & 2, The Resident Evil series ... Yep, it gonna take pages to list them all so I'm gonna leave it at that.
+          <br/> I loved them from my early childhood. I love all sorts of them. And I love developing them.
+        </div>
 
         <h3>I 🧡 Sports</h3>
         <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>

@@ -151,18 +151,21 @@ the GearVR platform.
       <div>
         <h3>I ❤️ Video games</h3>
         <div>
-          Some of my GOTYs: Silent Hill 2, Portal 2, Undertale, Binding of Isaac, Crusader Kings 2, Half Life 1 & 2, The Resident Evil series ... Yep, it gonna take pages to list them all so I'm gonna leave it at that.
+          Some of my GOTYs: Silent Hill 2, Portal 2, Undertale, Binding of Isaac, Crusader Kings 2, Half Life 1 & 2, The Resident Evil series, The Prince of Persia Send of Time trilogie, Crash Bandicoot 3... Yep, it's gonna take pages to list them all so I'm gonna leave it at that.
           <br/> I loved them from my early childhood. I love all sorts of them. And I love developing them.
         </div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Anime</h3>
+        <div>To be honest I like the Japanese culture in general but I especially love anime. I promise, I'm not a weeb.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 💛 TV Shows</h3>
+        <div>
+          I like the fact that they have the time to make you dive in a world and live in it/come back to it for some part of your life. 
+          It's the advantage they have on movies for me. Movies are too short of an experience, man!
+        </div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I Simply 💚 Fiction, in all its forms</h3>
+        <div>Video games, animes, TV shows but also books, comics, movies... As long as it tells a story that feeds my dreams, I love it!</div>
 
       </div>
     </div>

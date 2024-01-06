@@ -1,26 +1,28 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "The Black Swan", "img/projects/project-1-icon.png", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     Being developed by a small team of 3, <strong>The Black Swan</strong> is an action rogue-like with a dungeon crawler formula and a unique skill casting system. 
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     </div>
+    <br/><strong>The Black Swan</strong> is being developed on Unity 2022. You can follow the development on Twitch via the following channel:
     <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+        <a href="https://www.twitch.tv/theblackswandev" target="_blank"><img src="img/projects/twitch-logo.png" alt="Play Store badge" /></a>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Original skill casting and targeting system</li>
+        <li>Different characters, with unique passives and starting items</li>
+        <li>Randomized room enemies and rewards based on conditional pools</li>
+        <li>Diverse enemies with different patterns</li>
+        <li>Challenging boss fights</li>
+        <li>Modifiers-based skills and equipment, coupled with a rich crafting system</li>
         </ul>
     </div>
 
@@ -29,7 +31,7 @@ export default [
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
     </div>
     `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
+    new ProjectData("project-2", "Magic Mind", "img/projects/project-2-icon.png", `
     <div class="paragraph">
         <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.

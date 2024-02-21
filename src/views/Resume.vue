@@ -33,7 +33,7 @@
 
       <div class="tech-stack">Unity 2022, C#</div>
 
-      <h3>Freelancer software developer</h3>
+      <h3>Freelancer software developer - magicmind.me</h3>
       <h4>February 2021 - January 2023</h4>
 
       <div>
@@ -66,8 +66,8 @@ calculation called <strong>09</strong>, available on the <a target="_blank" href
       <div>
         - Development of a voice chat module for Unity, using the C++ library "RakVoice", for a social VR game for 
 the GearVR platform.
-        - Development, of a mathematical puzzle game targeting mobile platforms.
-        - Participation in the development of a PAC-MAN clone advergame targeting Facebook.
+<br />- Development, of a mathematical puzzle game targeting mobile platforms.
+<br />- Participation in the development of a PAC-MAN clone advergame targeting Facebook.
       </div>
 
       <div class="tech-stack">Unity, C#, C++, RakNet RakVoice, HTML, Javascript, CSS</div>
@@ -115,7 +115,6 @@ the GearVR platform.
         <div class="skill">CSS</div>
         <div class="skill">Bootstrap</div>
         <div class="skill">Laravel</div>
-        <div class="skill">MySQL</div>
         <div class="skill">WordPress</div>
         <div class="skill">Hax</div>
         <div class="skill">Moodle</div>

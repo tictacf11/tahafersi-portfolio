@@ -5,6 +5,7 @@
           <div
             :key="project.id"
               @click="showDetails(project)"
+              :id ="project.id"
               class="project-item"
               :class="{ 'wide': project.isWide, 'high': project.isHigh }">
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">

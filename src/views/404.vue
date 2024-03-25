@@ -6,6 +6,6 @@
 .http-404 {
   font-size: 11em;
   line-height: 3em;
-  text-align: center;
+  text-align: center; 
 }
 </style>

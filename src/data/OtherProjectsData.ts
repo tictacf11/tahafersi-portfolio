@@ -56,7 +56,7 @@ export default [
         </div>
         
     `, "#00a7e5"),
-    new ProjectData("project-16", "Tunisian Horses", "img/projects/horses/horses1.png", `
+    new ProjectData("project-16", "Tunisian Horses", "img/projects/horses/horses1.webp", `
     <div class="paragraph">
       Developed at <strong>INSTEAD</strong>, this website is dedicated to Tunisian horse breeding and race competition, <strong>Tunisian Horses</strong> aims to raise awareness of Tunisian breeding and racing worldwide and be an essential tool for professionals and breeders. To do that, it proposes multiple tools for both free and paid users. 
     </div>
@@ -80,10 +80,10 @@ export default [
         </div>
 
         <div class="paragraph center">
-          <img class="pc-screenshot" src="img/projects/horses/horses1.png" alt="Home page" />
-          <img class="pc-screenshot" src="img/projects/horses/horses2.png" alt="Website details + Horse search" />
-          <img class="pc-screenshot" src="img/projects/horses/horses3.png" alt="Endurance gallery" /> 
-          <img class="pc-screenshot" src="img/projects/horses/horses4.png" alt="Horse pedigree" /> 
+          <img class="pc-screenshot" src="img/projects/horses/horses1.webp" alt="Home page" />
+          <img class="pc-screenshot" src="img/projects/horses/horses2.webp" alt="Website details + Horse search" />
+          <img class="pc-screenshot" src="img/projects/horses/horses3.webp" alt="Endurance gallery" /> 
+          <img class="pc-screenshot" src="img/projects/horses/horses4.webp" alt="Horse pedigree" /> 
         </div>
     `, "#F7931E"),
     new ProjectData("project-17", "insteadsoftware.com", "img/projects/instead/instead.gif", `

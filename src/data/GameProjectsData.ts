@@ -1,8 +1,8 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "The Black Swan", "img/projects/bs/bs.webp", 
-    `
+    new ProjectData("project-1", "The Black Swan", "img/projects/bs/bs.webp",
+        `
     <div class="paragraph">
      <strong>The Black Swan</strong> is an action rogue-like game that follows a dungeon-crawler formula and features a unique skill-casting system.  
     </div>
@@ -26,15 +26,15 @@ export default [
         </ul>
     </div>
 
-    <div class="paragraph center">
+    <!--<div class="paragraph center">
         <img class="pc-screenshot" src="https://fakeimg.pl/300x534/" alt="Room battle 1" />
         <img class="pc-screenshot" src="https://fakeimg.pl/300x534/" alt="Room battle 2" />
         <img class="pc-screenshot" src="https://fakeimg.pl/300x534/" alt="Slime boss" />
         <img class="pc-screenshot" src="https://fakeimg.pl/300x534/" alt="Spider boss" />
         <img class="pc-screenshot" src="https://fakeimg.pl/300x534/" alt="Craft & inventory" />
-    </div>
+    </div>-->
     `, "#000000"),
-    new ProjectData("project-2", "Magicmind", "img/projects/mm/magic-mind.png", `
+    new ProjectData("project-2", "Magicmind", "img/projects/mm/magic-mind.webp", `
     <div class="paragraph">
         <strong>Magicmind</strong> is a wellness platform that harnesses the power of gaming technology to propose an entertaining wellness experience via gamified meditations, breathwork, and other wellness activities.
     </div>
@@ -62,7 +62,7 @@ export default [
 
     <div class="paragraph center">
     <img class="pc-screenshot" src="img/projects/mm/mm1.jpg" alt="Breathwork Creator" />
-    <img class="pc-screenshot" src="img/projects/mm/mm2.jpg" alt="Dashboard" />
+    <img class="pc-screenshot" src="img/projects/mm/mm2.webp" alt="Dashboard" />
     <img class="pc-screenshot" src="img/projects/mm/mm3.jpg" alt="Magic Verse" />
     </div>
     <div class="paragraph">
@@ -71,7 +71,7 @@ export default [
     </div>
     </div>
     `, "#000000"),
-    new ProjectData("project-3", "09", "img/projects/09/09.gif", `
+    new ProjectData("project-3", "09", "img/projects/09/09.webp", `
     <div class="paragraph">
         Started as a Game Jam Project, then Developed into a full game at <strong>INSTEAD</strong>, <strong>09</strong> is a casual mobile game that challenges players' mental calculation abilities. The game proposes multiple game modes with different mechanics.
         <br/> This project was developed using the Unity engine. I worked on this project from its game design conception at the Game Jam until the ad <strong>mediation API</strong> and the <strong>Google services API</strong> integration, passing through the gameplay and the UI programming.
@@ -93,9 +93,9 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="img/projects/09/09Solo.png" alt="Solo Mode" />
-        <img class="phone-screenshot" src="img/projects/09/09Dual.png" alt="Duel Moode" />
-        <img class="phone-screenshot" src="img/projects/09/09Challenge.png" alt="Challange Mode" />
+        <img class="phone-screenshot" src="img/projects/09/09Solo.webp" alt="Solo Mode" />
+        <img class="phone-screenshot" src="img/projects/09/09Dual.webp" alt="Duel Moode" />
+        <img class="phone-screenshot" src="img/projects/09/09Challenge.webp" alt="Challange Mode" />
     </div>
     `, "#2095f2", true),
     new ProjectData("project-4", "Kingdom of No One", "img/projects/kono/kono.webp", `
@@ -111,9 +111,9 @@ export default [
     </div>
     
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/kono/kono-fight.png" alt="Queues based battle system" />
-        <img class="pc-screenshot" src="img/projects/kono/kono-tool-event.png" alt="Quests and events tool" />
-        <img class="pc-screenshot" src="img/projects/kono/kono-tool-battle.png" alt="Game date (equipement, mercenaries, ennemies, etc) tool" />
+        <img class="pc-screenshot" src="img/projects/kono/kono-fight.webp" alt="Queues based battle system" />
+        <img class="pc-screenshot" src="img/projects/kono/kono-tool-event.webp" alt="Quests and events tool" />
+        <img class="pc-screenshot" src="img/projects/kono/kono-tool-battle.webp" alt="Game date (equipement, mercenaries, ennemies, etc) tool" />
         <!-- <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Map generation tool" /> -->
     </div>
     
@@ -130,12 +130,12 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/kono/kono-map.png" alt="Procedurally generated map" />
-        <img class="pc-screenshot" src="img/projects/kono/kono-UI.png" alt="Mercenary UI" />
-        <img class="pc-screenshot" src="img/projects/kono/kono-dialog.png" alt="Event with choices" />
+        <img class="pc-screenshot" src="img/projects/kono/kono-map.webp" alt="Procedurally generated map" />
+        <img class="pc-screenshot" src="img/projects/kono/kono-UI.webp" alt="Mercenary UI" />
+        <img class="pc-screenshot" src="img/projects/kono/kono-dialog.webp" alt="Event with choices" />
     </div>
     `, "#791625"),
-    new ProjectData("project-5", "Swift Touches", "img/projects/st/swift-touches-thmb.gif", `
+    new ProjectData("project-5", "Swift Touches", "img/projects/st/swift-touches-thmb.webp", `
     <div class="paragraph">
         <strong>Swift Touches</strong> is a Unity casual game developed by <a href="https://www.linkedin.com/in/ahmedbenlakhdhar/" target="blank"><strong>Ahmed Benlakhdhar</strong></a> as a game jam project and then published on <strong>Google Play</strong> and the <strong>Amazon App Store</strong>. It's a versus game on a single device where every player needs to be the first to touch the screen when his color appears.
         I participated in the development by helping finalize the game for publishing and integrating the ads API.
@@ -160,12 +160,12 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="img/projects/st/st-mm.png" alt="Main Menu" />
-        <img class="phone-screenshot" src="img/projects/st/st-cs.png" alt="Color Select" />
-        <img class="phone-screenshot" src="img/projects/st/st-dual.png" alt="Dual" />
-        <img class="phone-screenshot" src="img/projects/st/st-end.png" alt="Player 1 Wins" />
+        <img class="phone-screenshot" src="img/projects/st/st-mm.webp" alt="Main Menu" />
+        <img class="phone-screenshot" src="img/projects/st/st-cs.webp" alt="Color Select" />
+        <img class="phone-screenshot" src="img/projects/st/st-dual.webp" alt="Dual" />
+        <img class="phone-screenshot" src="img/projects/st/st-end.webp" alt="Player 1 Wins" />
     </div>`, "#fc9026", true),
-    new ProjectData("project-6", "MixOkay", "img/projects/mixok/Mixok.gif", `
+    new ProjectData("project-6", "MixOkay", "img/projects/mixok/Mixok.webp", `
     <div class="paragraph">
         <strong>MixOkay</strong> is a mathematic-based puzzle game developed on Unity during my internship at <strong>DigitalMania</strong>. The game's goal is to mix cells to make the most lines of the same number in a grid of 5*5 numbers before the end of the timer. The game targets the <strong>Web</strong> and <strong>mobile platforms</strong>.
         I did most of the programming on this game; I programmed the gameplay, the UI, and the tutorial.        
@@ -187,10 +187,10 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="img/projects/mixok/mixokay-config.png" alt="Mixokay Grid Configuration " />
-        <img class="phone-screenshot" src="img/projects/mixok/mixok-gameplay.png" alt="Mixokay Game" />
+        <img class="phone-screenshot" src="img/projects/mixok/mixokay-config.webp" alt="Mixokay Grid Configuration " />
+        <img class="phone-screenshot" src="img/projects/mixok/mixok-gameplay.webp" alt="Mixokay Game" />
     </div>`, "#052189", true),
-    new ProjectData("project-7", "Thoughts", "img/projects/thoughts/Thoughts.gif", `
+    new ProjectData("project-7", "Thoughts", "img/projects/thoughts/Thoughts.webp", `
     <div class="paragraph">
         This bizarre Unity game jam project was developed in the <strong>Global Game Jam 2015</strong>, which had the theme "What do we do now?". As that theme suggests, <strong>Thoughts</strong> is a kind of puzzle game where the player consistently asks himself that question. Every level of this game is different, and at the start of each level, the player needs to figure out how to interact with the level to understand what to do to get to the next level.
     </div>
@@ -211,8 +211,8 @@ export default [
         You can try this game by downloading it from the <a href="https://v3.globalgamejam.org/2015/games/thoughts" target="_blank">Game Jam archive</a>.
         </div>
     </div>
-    `, "#78b103", ),
-    new ProjectData("project-8", "GearVR Playroom", "img/projects/gear/gearVR-thumb.png", `
+    `, "#78b103",),
+    new ProjectData("project-8", "GearVR Playroom", "img/projects/gear/gearVR-thumb.webp", `
     <div class="paragraph">
     Developed within a team of 3 during my end-of-study internship at <strong>DigitalMania</strong>, <strong>GearVR Playroom</strong> is a multiplayer social VR experience for <strong>GearVR</strong>. The idea was to create a virtual room where multiple <strong>GearVR</strong> users could meet to chat and do various activities. My responsibility within this project was to implement the voice chat functionality. For that, I used <strong>RakVoice</strong>, a feature of the <strong>RakNet C++</strong> networking middleware, and implemented it in <strong>Unity</strong> by creating a plugin to access it.
     </div>
@@ -225,12 +225,12 @@ export default [
         </ul>
     </div>
 
-    <div class="paragraph center">
+    <!--<div class="paragraph center">
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>
+    </div>-->
     `, "#ff768e"),
-    new ProjectData("project-9", "Garcito", "img/projects/garcito/garcito.gif", `
+    new ProjectData("project-9", "Garcito", "img/projects/garcito/garcito.webp", `
     <div class="paragraph">
     Developed at <strong>DigitalMania</strong> as an advergame for the sparkling water brand <strong>Garci</strong>, <strong>Garcito</strong> is a <strong>Pacman</strong> clone for <strong>Facebook</strong>, created on <strong>Unity3D</strong>. I helped develop this game during my end-of-study internship, particularly by implementing simple AI for the ghosts.
     </div>    
@@ -247,7 +247,7 @@ export default [
     //     <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     // </div>
     // `, "#757653"),
-    new ProjectData("project-12", "Illusion", "img/projects/illusion/Illusion.gif", `
+    new ProjectData("project-12", "Illusion", "img/projects/illusion/Illusion.webp", `
     <div class="paragraph">
     <strong>Illusion</strong> is a project I worked on during an internship at <strong>Placeholder</strong>. It's a puzzle game for <strong>Android</strong> platforms inspired by the popular indie game <strong>Monument Valley</strong>. The game is based on the possibility of rotating the levels to change the perspective and find new ways to progress in the 3D isometric environment. 
     <br/> I worked on the game design of this project and its Unity3D development.
@@ -267,7 +267,7 @@ export default [
         <iframe class="youtube" src="https://www.youtube.com/embed/PI7HWDqsP5w" frameborder="0" allowfullscreen></iframe>
     </div>
     `, "#a54738"),
-    new ProjectData("project-11", "Bugs", "img/projects/bugs/bugs.gif", `
+    new ProjectData("project-11", "Bugs", "img/projects/bugs/bugs.webp", `
     <div class="paragraph">
     This academic project is one of the first original game projects I worked on on <strong>Unity3D</strong>, and it's where I started honing my skills in designing and implementing gameplay mechanics and character animations. <strong>Bugs</strong> is a two-player turn-based tactical versus game, where each player controls a team of 3 cybernetic bugs and tries to use them to destroy the opponent team. Every bug has two mods, one for movement and one for attacking, and every bug type has a unique attack pattern.
     </div>    
@@ -275,14 +275,14 @@ export default [
         <iframe class="youtube" src="https://www.youtube.com/embed/v6Uv5MARa9U" frameborder="0" allowfullscreen></iframe>
     </div>
     `, "#43393c"),
-    new ProjectData("project-13", "Space War", "img/projects/space/SpaceWar.webp", `
+    new ProjectData("project-13", "Space War", "img/projects/space/SpaceWar-thumb.webp", `
     <div class="paragraph">
     This academic project is a classic <strong>Shoot 'em up</strong> where the player needs to defend the earth a ainst waves of alien invaders. 
     <br/>This game was developed using the <strong>HTML5/javascript</strong> game framework, <strong>Phaser 2</strong>, targeting the mainly the <strong>Samsung smart TV</strong> platform.
     </div>    
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/space/SpaceWar.png" alt="Wave 1" />
-        <img class="pc-screenshot" src="img/projects/space/SpaceWar2.png" alt="Wave 6" />
+        <img class="pc-screenshot" src="img/projects/space/SpaceWar.webp" alt="Wave 1" />
+        <img class="pc-screenshot" src="img/projects/space/SpaceWar2.webp" alt="Wave 6" />
     </div>
     `, "#083170"),
 ];

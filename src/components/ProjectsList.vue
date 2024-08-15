@@ -1,32 +1,28 @@
 <template>
-    <div>
-      <div class="projects-list">
-        <template v-for="project in projects">
-          <div
-            :key="project.id"
-              @click="showDetails(project)"
-              :id ="project.id"
-              class="project-item"
-              :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+  <div>
+    <div class="projects-list">
+      <template v-for="project in projects">
+        <div :key="project.id" @click="showDetails(project)" :id="project.id" class="project-item"
+          :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+          <div v-if="project.staticImageUrl !== ''" class="project-item-temp-image"
+            :style="{ 'background-image': 'url(' + project.iconTempUrl + ')' }">
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>
-            <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
-                <div class="title-text">
-                  {{ project.name }}
-                </div>
-              </div>
           </div>
-        </template>
-      </div>
-
-      <ProjectDetailsOverlay
-        v-on:close="showPopup = false"
-        :visible="showPopup"
-        :title="popupTitle"
-        :htmlContent="popupContent"
-        :color="popupColor"
-      />
+          <div v-else class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
+          </div>
+          <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
+            <div class="title-text">
+              {{ project.name }}
+            </div>
+          </div>
+        </div>
+      </template>
     </div>
+
+    <ProjectDetailsOverlay v-on:close="showPopup = false" :visible="showPopup" :title="popupTitle"
+      :htmlContent="popupContent" :color="popupColor" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -76,6 +72,12 @@ export default Vue.extend({
   overflow: hidden;
 }
 
+.project-item-temp-image {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
 .project-item-image {
   background-size: cover;
   background-position: center;

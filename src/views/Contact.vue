@@ -1,14 +1,16 @@
 <template>
   <div>
-    
+
     <h1>Let's get in touch</h1>
 
-    <div style="margin-bottom:40px;">I'm looking for a job !<br/>Feel free to contact me about any opportunity, or just to chat about video games, kittens or anything else.</div>
+    <div style="margin-bottom:40px;">I'm looking for a job !<br />Feel free to contact me about any opportunity, or just
+      to chat about video games, kittens or anything else.</div>
 
     <ul>
       <li>
         <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="http://mywebsite.com" target="_blank">https://mywebsite.com</a>
+        <a href="https://tictacf11.github.io/tahafersi-portfolio"
+          target="_blank">https://tictacf11.github.io/tahafersi-portfolio</a>
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
@@ -16,7 +18,8 @@
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
-        <a href="https://www.linkedin.com/in/taha-fersi-ab0b53106/" target="_blank">linkedin.com/in/taha-fersi-ab0b53106</a>
+        <a href="https://www.linkedin.com/in/taha-fersi-ab0b53106/"
+          target="_blank">linkedin.com/in/taha-fersi-ab0b53106</a>
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>

@@ -24,7 +24,7 @@ export default [
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
         </div> -->
-    `, "#013057", false, true),
+    `, "#013057", "", false, true),
   new ProjectData("project-15", "FinLabs", "img/projects/finlabs/finlabs-thumb.webp", `
     <div class="paragraph">
       <strong>FinLabs</strong> is a digital training platform in the form of simulation on the capital market in general and specifically on the exchange market. The objective of FinLabs is to best serve the expectations of students and professionals by offering them a unique quality of learning through the superimposition of present reality and digital learning.
@@ -111,7 +111,7 @@ export default [
           <img class="pc-screenshot" src="img/projects/instead/instead2.webp" alt="Instead Finance" />
           <img class="pc-screenshot" src="img/projects/instead/instead3.webp" alt="Instead Creative " />
         </div>
-    `, "#0d0e22"),
+    `, "#0d0e22", "img/projects/instead/instead1.webp"),
   new ProjectData("project-18", "meetmybaby.co.uk", "img/projects/mmb/mmb-thumb.webp", `
     <div class="paragraph">
     <strong>meetmybaby.co.uk</strong> is the official website of the <strong>Meet My Baby</strong> private 4D ultrasound clinic. This WordPress website promotes the clinic and allows the visitor to create accounts, book a date for the different services offered by the clinic, and calculate the due date of their baby's birth. I participated in the maintenance of this website and the development of its functionalities. I especially worked on the booking process.

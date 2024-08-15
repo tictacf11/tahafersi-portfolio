@@ -23,16 +23,62 @@ export default Vue.extend({
   name: 'App',
   components: {
     Header, Footer
+  },
+  watch: {
+    // Watch for route changes
+    $route(to, from) {
+      this.preloadImagesBasedOnRoute(to.path);
+    }
+  },
+  mounted() {
+    // Preload images on the initial load
+    this.preloadImagesBasedOnRoute(this.$route.path);
+  },
+  methods: {
+    preloadImagesBasedOnRoute(route: string) {
+      let images: string[] = [];
+      console.log(route);
+
+      if (route == "/")
+        images = ["img/avatar.png"];
+      else if (route.includes("resume")) 
+        images = ["img/resume-photo.webp"];
+      else if (route.includes("other-projects"))
+        images = [
+          "img/projects/uam/uam.webp",
+          "img/projects/finlabs/finlabs-thumb.webp",
+          "img/projects/horses/horses1.webp",
+          "img/projects/instead/instead1.webp",
+          "img/projects/mmb/mmb-thumb.webp",
+          "img/projects/aeae/aeae-thumb.webp"
+        ];
+      else if (route.includes("game-projects"))
+        images = [
+          "img/projects/bs/bs-first_frame.webp",
+          "img/projects/mm/magic-mind.webp",
+          "img/projects/09/09first_frame.webp",
+          "img/projects/kono/kono-first_frame.webp",
+          "img/projects/st/swift-touches-thmb-first_frame.webp",
+          "img/projects/mixok/Mixok-first_frame.webp",
+          "img/projects/thoughts/Thoughts-first_frame.webp",
+          "img/projects/gear/gearVR-thumb.webp",
+          "img/projects/garcito/garcito-first_frame.webp",
+          "img/projects/illusion/Illusion-first_frame.webp",
+          "img/projects/bugs/bugs-first_frame.webp",
+          "img/projects/space/SpaceWar-first_frame.webp"
+        ];
+      
+      console.log(images);
+      Helpers.preloadImages(images);
+    }
   }
 });
 
-// Preload heavy images or gifs that are used in other pages
-Helpers.preloadImages([
-  "img/projects/project-1-icon.png",
-  "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
-]);
-
+// // Preload heavy images or gifs that are used in other pages
+// Helpers.preloadImages([
+//   "img/projects/amazon.webp",
+//   "img/projects/twitch-logo.webp"
+// ]);
 </script>
 
 <style lang="less">

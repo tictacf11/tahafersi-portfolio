@@ -54,6 +54,7 @@ export default Vue.extend({
         ];
       else if (route.includes("game-projects"))
         images = [
+          "img/projects/ka/ka-first_frame.webp",
           "img/projects/bs/bs-first_frame.webp",
           "img/projects/mm/magic-mind.webp",
           "img/projects/09/09first_frame.webp",

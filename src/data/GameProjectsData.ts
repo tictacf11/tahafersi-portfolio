@@ -1,6 +1,31 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-20", "Knight Arena", "img/projects/ka/ka-thumb.webp", `
+    <div class="paragraph">
+        <strong>Knight Arena</strong> is a free-to-play, PvP-focused <strong>MMORPG</strong> where you rise from a commoner to a legend in a dark world of kings, knights, politics and war. It is built on the <strong>Atavism</strong> engine.
+        <br/>I work on it as a freelance gameplay programmer, on both the Java server and the client (<strong>Unity</strong> at first, now <strong>Unreal Engine 5</strong>). I rebuilt the combat and damage model and built the prayer, gathering and item upgrade systems.
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/ntcE83lqgnY" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph">
+      <div class="notice">
+        Visit <a href="https://knightarena.com" target="_blank">knightarena.com</a>.
+      </div>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Combat with projectile, hitscan and combo abilities</li>
+        <li>Gods, faith and prayers</li>
+        <li>Gathering professions: foraging, prospecting and treasure hunting</li>
+        <li>Gear upgrades, enchantments and randomized stats</li>
+        <li>Character growth through stat points</li>
+        </ul>
+    </div>
+    `, "#2e3454", "img/projects/ka/ka-first_frame.webp"),
     new ProjectData("project-1", "The Black Swan", "img/projects/bs/bs.webp",
         `
     <div class="paragraph">

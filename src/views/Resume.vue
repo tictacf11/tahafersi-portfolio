@@ -4,12 +4,12 @@
 
     <div class="paragraph">
       I'm <strong>Taha Fersi</strong>, an experienced developer currently based in Tunis, Tunisia.
-      <br />After graduating as a software engineer in 2017, I've accumulated six years of experience as a versatile software developer, primarily focusing on game development. Additionally, I've served in roles as both a front-end and back-end web developer.
+      <br />After graduating as a software engineer in 2017, I've accumulated eight years of experience as a versatile software developer, primarily focusing on game development. Additionally, I've served in roles as both a front-end and back-end web developer.
       <br />
       <br />After commencing my career with an internship at <a target="_blank" href="https://new.digitalmaniastudio.com/">DigitalMania</a>, Tunisia's inaugural independent game studio, I co-founded <a target="_blank" href="https://www.insteadsoftware.com/">INSTEAD</a> with visionary friends. This startup, concentrating on both financial and creative applications, became my professional focal point for over 3 years.
       <br />Following that, I spent a productive two-year period as a freelance remote Unity developer at MagicMind Ltd., contributing to the development of gamified wellness applications.
       <br />
-      <br />Presently, I am actively engaged in the development of an action rogue-like game titled "The Black Swan" alongside two talented friends.
+      <br />Presently, I am a freelance gameplay programmer on "Knight Arena", an MMORPG built on the Atavism engine, working across its Java server and Unreal Engine 5 client.
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/Taha Fersi ENG.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
@@ -26,8 +26,21 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
+      <h3>Freelance MMO gameplay programmer - Jutsu Online (via Upwork)</h3>
+      <h4>October 2024 - Present</h4>
+
+      <div>
+        - Gameplay programming on the Java server and the client of <strong>Knight Arena</strong>, an MMORPG on the Atavism engine, first in Unity then in Unreal Engine 5.
+        <br /> - Rebuilt the combat and damage model, from attack power to cooldowns.
+        <br /> - Designed a server-authoritative projectile and hitscan system with server-side hit verification.
+        <br /> - Built the prayer, gathering and item upgrade systems end to end.
+        <br /> - Extended Atavism's Angular/Electron content editor so designers could author them.
+      </div>
+
+      <div class="tech-stack">Java, C++, Unreal Engine 5, Unity, C#, TypeScript, Angular, Electron, MySQL, Atavism</div>
+
       <h3>Game Developer - Q3 Software Development Services</h3>
-      <h4>February 2023 - Present</h4>
+      <h4>February 2023 - July 2024</h4>
 
       <div>Work on <strong>The Black Swan</strong> a 2D rogue-like action game on Unity.</div>
 
@@ -44,7 +57,7 @@
         <br /> - Development of a Hax plugin for Moodle.
       </div>
 
-      <div class="tech-stack">Unity 2022, C#, Java, Firebase, AWS, JSON, GPU particle system, Cinemachine, Zinject, Atavism, Hax, Moodle</div>
+      <div class="tech-stack">Unity 2022, C#, Java, Firebase, AWS, JSON, GPU particle system, Cinemachine, Zenject, Atavism, Hax, Moodle</div>
 
       <h3>Software developer - INSTEAD</h3>
       <h4>March 2017 - January 2021</h4>
@@ -89,20 +102,21 @@ the GearVR platform.
         <div class="skill">Java</div>
         <div class="skill">Javascript</div>
         <div class="skill">Typescript</div>
-        <div class="skill">PHP</div>
         <div class="skill">MySQL</div>
       </div>
 
       <div class="skill-set">
         <h3>Tools & Frameworks</h3>
         <div class="skill">Unity</div>
+        <div class="skill">Unreal Engine 5</div>
         <div class="skill">WPF</div>
+        <div class="skill">Electron</div>
         <div class="skill">Visual Studio</div>
         <div class="skill">XML</div>
         <div class="skill">JSON</div>
         <div class="skill">Firebase</div>
         <div class="skill">AWS</div>
-        <div class="skill">Zinject</div>
+        <div class="skill">Zenject</div>
         <div class="skill">Atavism</div>
         <div class="skill">RakVoice (RakNet)</div>
         <div class="skill">GIT</div>
@@ -114,6 +128,7 @@ the GearVR platform.
         <div class="skill">HTML</div>
         <div class="skill">CSS</div>
         <div class="skill">Bootstrap</div>
+        <div class="skill">Angular</div>
         <div class="skill">Laravel</div>
         <div class="skill">WordPress</div>
         <div class="skill">Hax</div>
@@ -138,10 +153,10 @@ the GearVR platform.
       <h2>Languages</h2>
 
       <h3>English</h3>
-      <div>Advenced knowledge.</div>
+      <div>Advanced knowledge.</div>
 
       <h3>French</h3>
-      <div>Fluant.</div>
+      <div>Fluent.</div>
 
       <h3>Arabic</h3>
       <div>Native.</div>
